@@ -1,1 +1,1 @@
-window.location.href = "harley2787.github.io";
+setTimeout(() => {  window.location.href = "harley2787.github.io"; }, 5000);
