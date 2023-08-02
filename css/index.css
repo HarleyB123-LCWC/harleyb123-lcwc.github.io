@@ -7,7 +7,14 @@
 html,body{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 .hero{
     height: 100vh;
