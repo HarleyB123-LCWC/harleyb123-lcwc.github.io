@@ -29,7 +29,9 @@ function Login(){
     error += "Feature Not Avaliable Yet";
     alert(error);
 }
-
+function Discord(){
+    window.open("https://discord.gg/r24QvX4Xzh", "_blank");
+}
 function CheckMaintenence(IsUnder) {
     if (IsUnder) {
         location.href = "Maintenence.html"
