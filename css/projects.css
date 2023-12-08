@@ -51,9 +51,18 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    
     align-items: center;
 }
 nav ul li a:hover{
     color: red;
     transition: .4s;
+}
+
+nav ul li h3{
+    color: aliceblue;
+}
+nav ul li p{
+    padding-top: 8px;
+    color: aliceblue;
 }
