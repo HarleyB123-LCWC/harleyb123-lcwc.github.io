@@ -18,22 +18,11 @@ function Projects(){
     var element = document.querySelector("#projects")
     element.scrollIntoView({behavior: "smooth"});
 }
-function EmailSubmit(){
-    location.href = "#home";
-    console.log("Email Submitting")
-}
+
 function Cyberpage() {
     location.href="https://harleyb123-lcwc.github.io/cyberpage/index.html"
 }
-function Login(){
-    console.log("Feature Not Avaliable Yet | [WIP]")
-    var error = "", field = "";
-    error += "Feature Not Avaliable Yet";
-    alert(error);
-}
-function Discord(){
-    window.open("https://discord.gg/r24QvX4Xzh", "_blank");
-}
+
 function CheckMaintenence(IsUnder) {
     if (IsUnder) {
         location.href = "Maintenence.html"
