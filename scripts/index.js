@@ -22,7 +22,9 @@ function EmailSubmit(){
     location.href = "#home";
     console.log("Email Submitting")
 }
-
+function Cyberpage() {
+    location.href="https://harleyb123-lcwc.github.io/cyberpage/index.html"
+}
 function Login(){
     console.log("Feature Not Avaliable Yet | [WIP]")
     var error = "", field = "";
